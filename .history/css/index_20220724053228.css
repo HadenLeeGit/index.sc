@@ -1,11 +1,12 @@
 .b {
   display: flex;
   height: 150px;
-  padding: 0 80px;
+  padding: 0 90;
   line-height: 1;
   color: var(--dark-color);
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 .c {
   font-size: 38px;
@@ -13,7 +14,7 @@
 }
 
 .b img {
-  height: 40px;
+  width: 50%;
 }
 .c:hover {
   color: var(--primary-color);
@@ -32,18 +33,12 @@
     height: 108px;
     padding: 0 48px;
   }
-  .b img {
-    height: 35px;
-  }
 
 }
 @media screen and (max-width: 600px) {
   .b {
     height: 80px;
     padding: 0 20px;
-  }
-  .b img {
-    height: 30px;
   }
   .c {
     font-size: 34px;
